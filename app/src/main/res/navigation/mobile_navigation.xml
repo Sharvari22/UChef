@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_home">
+
+    <fragment
+        android:id="@+id/nav_my_home"
+        android:name="com.example.uchef.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/nav_requests"
+        android:name="com.example.uchef.RequestsFragment"
+        android:label="View Requests"
+        tools:layout="@layout/fragment_requests" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.uchef.ScheduleFragment"
+        android:label="My Schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.uchef.PaymentsFragment"
+        android:label="Payments"
+        tools:layout="@layout/fragment_payments" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.uchef.MyAccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_myaccount" />
+</navigation>
